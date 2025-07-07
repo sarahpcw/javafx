@@ -3,7 +3,7 @@ package g_oo;
 // abstract class cannot be instantiated, it MUST have a child class
 // abstract method MUST be implemented in the child class
 public abstract class b_IMethods implements b_Interface4 {  //parent, base, super class
-	double labourSQM =0;
+	double labourSQM =0.00;
 	double carpetSQM =0;
 	
 	b_IMethods(double lp, double cp){
