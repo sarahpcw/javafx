@@ -5,7 +5,7 @@ public interface b_Interface4 {
 	
 	abstract double calcArea (double length , double w);  //abstract method
 	//  length*w
-	abstract double calcPrice (double area );
+	abstract double calcPrice (double area ); // call a method
 
 	abstract double calcLabourCost (double area );
 		
