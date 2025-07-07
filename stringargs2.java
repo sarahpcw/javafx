@@ -10,7 +10,7 @@ public class stringargs2 {
         System.exit(-1);
 		}
 		// declare
-		double width = 0.0, length = 0.0,  sqm = 0.0, distance =0.0, tf = 0.0;
+		double width = 0.0, length = 0.00,  sqm = 0.0, distance =0.0, tf = 0.0;
 		
 		// gather input values 
 		length =  Double.parseDouble(args[0]);
