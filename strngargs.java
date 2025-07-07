@@ -4,7 +4,7 @@ package e_stringArgs;
 public class strngargs {
 
 	public static void main(String[] args) {  // {"Peter","paul","Nigel"}
-		String name = "";
+		String name = " ";
 		if ( args.length > 0){
 			for (int i = 0; i<args.length; i++){
 				System.out.println(args[i]  );
