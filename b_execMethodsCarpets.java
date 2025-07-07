@@ -4,14 +4,14 @@ package g_oo;
 public class b_execMethodsCarpets {
 	
 	public static void main(String[] args) { // run class or execute class
-		double length = 2.0, width = 4.0;		
+		double length = 2.0, width = 4.00;		
 		double p = 0.0, lc = 0.0, tf =0.0;
 		double fullPrice = 0.0;
 		
 		// create an object or instantiate the class or create an instance
 		//cannot instantiate an abstract class
 		//vatUK im = new vatUK();  //constructor runs here
-		//vatGermanay im = new vatGermanay(2.5); // labourprice = 2.5
+		//vatGermanay im = new vatGermanay(2.50); // labourprice = 2.50
 		
 		b_finalCarpats  im = new b_finalCarpats(1.14, 22.00, 15); 
 		// provide value to the input parameter of the constructor
