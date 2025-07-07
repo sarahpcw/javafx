@@ -7,7 +7,7 @@ final class b_finalCarpats  extends b_carpetVat{
 	
 	public double bonus (double PricePlusVat){
 		double PricePlusBonus = PricePlusVat + 10 ;
-		return PricePlusBonus;
+		return PricePlusBonus; //return value of datatype double
 	}
 
  
